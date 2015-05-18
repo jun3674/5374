@@ -2,5 +2,5 @@ label,sublabel,description,styles,bgcolor
 燃やせないごみ,,,img/moyasanai02.svg,#733b96
 資源物,,,img/shigen02.svg,#77ae1f
 燃やせるごみ,,,img/moyaserugomi.svg,#ea3b13
-有害ごみ,,,,#696972
+有害ごみ,,,yuugaigomi.svg,#696972
 粗大ごみ,,,,#B88611
