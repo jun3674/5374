@@ -18,6 +18,21 @@
     <link href="css/custom.css" rel="stylesheet" media="screen" />
   </head>
   <body>
+       <font size="3"color="#FF0000"><center>
+  <!--  通常↑サイズを２に文字置きスペース  -->
+<SCRIPT LANGUAGE="JavaScript">
+mydate=new Date();
+Ye=mydate.getFullYear()+"年";
+Mo=mydate.getMonth()+1+"月";
+Da=mydate.getDate()+"日";
+Day=mydate.getDay();
+Day2=new Array(7);
+Day2[0]="日";Day2[1]="月";Day2[2]="火";
+Day2[3]="水";Day2[4]="木";Day2[5]="金";
+Day2[6]="土";
+document.write(Ye+" "+Mo+" "+Da+"（"+Day2[Day]+"）");
+</SCRIPT>
+  </center></font>
   <style id="accordion-style" type="text/css"></style>
   <div id="accordion"></div>
   <select class="form-control" id="select_area"></select>
